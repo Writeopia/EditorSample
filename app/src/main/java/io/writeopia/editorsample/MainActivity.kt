@@ -48,7 +48,6 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Editor(modifier: Modifier = Modifier) {
-
     val stateManager = remember {
         WriteopiaStateManager.create(
             WriteopiaManager(),
